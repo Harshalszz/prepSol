@@ -2,7 +2,7 @@ package ProblemsDay_248;
 
 public class RearrangeSpacesBetweenWords {
 
-    //https://leetcode.com/problems/rearrange-spaces-between-words/?envType=problem-list-v2&envId=string
+    // https://leetcode.com/problems/rearrange-spaces-between-words/?envType=problem-list-v2&envId=string
     public String reorderSpaces(String text) {
         int spaceCount = 0;
         int wordsCount = 0;
