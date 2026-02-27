@@ -2,7 +2,7 @@ package ProblemsDay_264;
 
 public class MaximumofAbsoluteValueExpression {
 
-//https://leetcode.com/problems/maximum-of-absolute-value-expression/?envType=problem-list-v2&envId=array
+// https://leetcode.com/problems/maximum-of-absolute-value-expression/?envType=problem-list-v2&envId=array
     public int maxAbsValExpr(int[] arr1, int[] arr2) {
 
         int[] sign = new int[]{-1,1};
