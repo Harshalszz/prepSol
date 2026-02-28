@@ -2,7 +2,7 @@ package ProblemsDay_265;
 
 public class ChecktheSentencePangram {
 
-//https://leetcode.com/problems/check-if-the-sentence-is-pangram/?envType=problem-list-v2&envId=string
+// https://leetcode.com/problems/check-if-the-sentence-is-pangram/?envType=problem-list-v2&envId=string
     public boolean checkIfPangram(String sentence) {
         if (sentence.length() < 26) return false;
         boolean[] seen = new boolean[26];
