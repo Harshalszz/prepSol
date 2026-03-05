@@ -2,7 +2,7 @@ package ProblemsDay_270;
 
 public class DecodedStringatIndex {
 
-//https://leetcode.com/problems/decoded-string-at-index/?envType=problem-list-v2&envId=string
+// https://leetcode.com/problems/decoded-string-at-index/?envType=problem-list-v2&envId=string
     public String decodeAtIndex(String inputString, int k) {
         long decodedLength = 0; // Total length of the decoded string
 
