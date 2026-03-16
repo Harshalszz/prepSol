@@ -2,7 +2,7 @@ package ProblemsDay_281;
 
 public class RemoveAllOccurrencesSubstring {
 
-    //https://leetcode.com/problems/remove-all-occurrences-of-a-substring/?envType=problem-list-v2&envId=string
+    // https://leetcode.com/problems/remove-all-occurrences-of-a-substring/?envType=problem-list-v2&envId=string
     public String removeOccurrences(String s, String part) {
         char[] input = s.toCharArray();
         char[] target = part.toCharArray();
