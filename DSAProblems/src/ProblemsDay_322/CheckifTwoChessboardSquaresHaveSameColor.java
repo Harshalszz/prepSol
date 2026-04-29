@@ -1,7 +1,7 @@
 package ProblemsDay_322;
 
 public class CheckifTwoChessboardSquaresHaveSameColor {
-//https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/?envType=problem-list-v2&envId=string
+// https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/?envType=problem-list-v2&envId=string
 
     public boolean checkTwoChessboards(String coordinate1, String coordinate2) {
 
