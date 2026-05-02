@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LexicographicallySmallestStringAfterApplyingOperations {
 
-//https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/?envType=problem-list-v2&envId=string
+// https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/?envType=problem-list-v2&envId=string
     public String findLexSmallestString(String s, int a, int b) {
         Set<String> vis = new HashSet<>();
         String smallest = s;
