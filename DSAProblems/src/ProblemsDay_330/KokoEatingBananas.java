@@ -2,7 +2,9 @@ package ProblemsDay_330;
 
 public class KokoEatingBananas {
 
-//https://leetcode.com/problems/koko-eating-bananas/?q=koko
+
+
+    // https://leetcode.com/problems/koko-eating-bananas/?q=koko
     public int maxEle(int[] nums){
         int max = Integer.MIN_VALUE;
         for(int i=0; i<nums.length;i++){
