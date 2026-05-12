@@ -2,7 +2,7 @@ package ProblemsDay_335;
 
 public class MinimumLengthStringAfterOperations {
 
-
+//https://leetcode.com/problems/minimum-length-of-string-after-operations/?envType=problem-list-v2&envId=string
     public int minimumLength(String s) {
         int[] charFrequency = new int[26];
         int totalLength = 0;
