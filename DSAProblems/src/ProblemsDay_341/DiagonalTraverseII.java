@@ -5,7 +5,7 @@ import java.util.List;
 
 public class DiagonalTraverseII {
 
-//https://leetcode.com/problems/diagonal-traverse-ii/?envType=problem-list-v2&envId=array
+// https://leetcode.com/problems/diagonal-traverse-ii/?envType=problem-list-v2&envId=array
     public int[] findDiagonalOrder(List<List<Integer>> nums) {
         List<List<Integer>> res = new ArrayList<>();
         int m = nums.size(), size = 0;
