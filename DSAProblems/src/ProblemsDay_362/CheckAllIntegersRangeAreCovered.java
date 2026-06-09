@@ -2,7 +2,7 @@ package ProblemsDay_362;
 
 public class CheckAllIntegersRangeAreCovered {
 
-//https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/?envType=problem-list-v2&envId=array
+// https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/?envType=problem-list-v2&envId=array
 
     public boolean isCovered(int[][] ranges, int left, int right) {
         int[] diff = new int[52];              // 1..50 plus r+1
