@@ -1,6 +1,7 @@
 package ProblemsDay_371;
 
 import java.util.Arrays;
+import java.util.HashSet;
 
 public class KeepMultiplyingFoundValuesTwo {
 
@@ -23,6 +24,20 @@ public class KeepMultiplyingFoundValuesTwo {
 
     }
     public static void main(String[] args) {
+
+    }
+
+    public int findFinalValue2(int[] nums, int n) {
+
+        HashSet<Integer> numSet = new HashSet<>();
+        for (int num : nums) {
+            numSet.add(num);}
+
+        while (numSet.contains(n)) {
+            n *= 2;}
+
+        return n;
+
 
     }
 }
