@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class NumberDistinctAverages {
 
-//https://leetcode.com/problems/number-of-distinct-averages/?envType=problem-list-v2&envId=array
+//https://l eetcode.com/problems/number-of-distinct-averages/?envType=problem-list-v2&envId=array
     public int distinctAverages(int[] nums) {
         Arrays.sort(nums);
 
