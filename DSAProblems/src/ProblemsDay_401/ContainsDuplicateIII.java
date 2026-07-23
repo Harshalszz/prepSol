@@ -1,0 +1,40 @@
+package ProblemsDay_401;
+
+import java.util.TreeSet;
+
+public class ContainsDuplicateIII {
+//https://leetcode.com/problems/contains-duplicate-iii/
+
+    public boolean containsNearbyAlmostDuplicate(int[] nums, int indexDiff, int valueDiff) {
+        if (indexDiff <= 0 || valueDiff < 0) return false;
+
+        TreeSet<Long> window = new TreeSet<>(); // ordered values in current window
+
+        for (int i = 0; i < nums.length; i++) {
+            // Remove index that moved out of [i - indexDiff, i - 1].
+            if (i > indexDiff) {
+                window.remove((long) nums[i - indexDiff - 1]);
+            }
+
+            long x = nums[i];
+            long low = x - (long) valueDiff;
+            long high = x + (long) valueDiff;
+
+            // First value >= low
+            Long candidate = window.ceiling(low);
+
+            // ceiling only gives lower side guarantee, so check upper bound too.
+            if (candidate != null && candidate <= high) {
+                return true;
+            }
+
+            window.add(x);
+        }
+
+        return false;
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
