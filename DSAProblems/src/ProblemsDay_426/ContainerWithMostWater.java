@@ -1,8 +1,6 @@
 package ProblemsDay_426;
 
-public class ContainerWithMostWater {
-
-    //https://leetcode.com/problems/container-with-most-water/?envType=problem-list-v2&envId=greedy
+public class ContainerWithMostWater {//https://leetcode.com/problems/container-with-most-water/?envType=problem-list-v2&envId=greedy
     public int maxArea(int[] nums) {
 
         int l =0, r = nums.length - 1;
