@@ -4,7 +4,7 @@ import ProblemsDay2.ListNode;
 
 public class MergeTwoSortedLists {
 
-//https://leetcode.com/problems/merge-two-sorted-lists/?envType=problem-list-v2&envId=linked-list
+// https://leetcode.com/problems/merge-two-sorted-lists/?envType=problem-list-v2&envId=linked-list
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
         ListNode mergeLists = new ListNode(0);
